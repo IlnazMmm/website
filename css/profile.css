@@ -1,0 +1,222 @@
+.body{
+    margin: 0 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.logo{
+    position: flex;
+    width: 204px;
+    height: 28px;
+    margin-right: 85px;
+    left: 9px;
+    top: 16px;
+}
+.intro{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #DEF5FC 0%, rgba(222, 245, 252, 0) 100%);
+    background-size: cover;
+    border: none;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header_inner{
+    align-items: center ;
+    text-align: center;
+    display: flex;
+    justify-content:first baseline;
+    position: flex;
+    background: #F9FFF4;
+    height: 60px;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.nav{
+    margin: 0, 0, 0, 0;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+
+}
+.nav_link{
+    position: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    vertical-align: top;
+    margin: 0 30px;
+    line-height: 18px;
+    display: inline-block;
+    align-items: left;
+    text-align: left;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    color: #000000;
+    left: 10px;
+    top: 21px;
+}
+.search_box{
+    position: relative;
+    margin: 114px;
+    height: 32px;
+    width: 375px;
+    background: #F6F6F6;
+}
+.search_box:before{
+    content: "\e986";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    padding-top: 8px;
+    padding-left: 25px;
+    color: #000000;
+    opacity: 0.4
+}
+.search_txt{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background: none;
+    float: left;
+    border: none;
+    width: 305px;
+    height: 20px;
+    top: 16px;
+    padding-top: 8px;
+    padding-left: 65px;
+    outline: none;
+}
+
+.auth_btn{
+    width: 130px;
+    height: 40px;
+    display: relative;
+    align-items: center;
+    text-align: center;
+    background: #18A0FB;
+    border: 1px solid #5D5FEF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+.auth_btn:hover{
+    background: #4b83a8;
+}
+#auth_word{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    outline: none;
+    transition-duration: 500ms;
+}
+.profile_info{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 318px;
+    height: 840px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+.avatar{
+    position: absolute;
+    width: 209px;
+    height: 209px;
+    border-radius: 50%;
+    top: 24px;
+    left: 54px;
+}
+.phone{
+    position: absolute;
+    width: 219px;
+    height: 24px;
+    top: 304px;
+    left: 54px;
+    border-radius: 6px;
+    transition-duration: 250ms;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    background: #DEF5FC;
+    outline:none;
+    border-style: none;
+}
+.email{
+    position: absolute;
+    width: 219px;
+    height: 24px;
+    top: 379px;
+    left: 54px;
+    border-radius: 6px;
+    transition-duration: 250ms;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    background: #DEF5FC;
+    outline:none;
+    border-style: none;
+}
+.info{
+    position: absolute;
+    width: 219px;
+    height: 24px;
+    top: 454px;
+    left: 54px;
+    border-radius:6px;
+    transition-duration: 250ms;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    background: #DEF5FC;
+    outline:none;
+    border-style: none;
+}
+.full_name{
+    position: absolute;
+    width: 209px;
+    height: 209px;
+    top: 240px;
+    left: 54px;
+}
+.modal_exit{
+    position: flex;
+    width: 116px;
+    height: 40px;
+    left: 64px;
+    top: 298px;
+    background: #18A0FB;
+    color: #DEF5FC;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition-duration: 500ms;
+}
+.modal_exit:hover{
+    background: #4b83a8;
+}
